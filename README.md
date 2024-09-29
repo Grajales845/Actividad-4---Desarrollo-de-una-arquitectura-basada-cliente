@@ -9,9 +9,9 @@ Inicialmente en el paquete "chat" se crea el JFrame Form para el cliente y el se
 
 ![image](https://github.com/user-attachments/assets/7919d47d-14ef-40de-b23b-7d4174eb4746)
 
-# Codigo del Servidor.
 
-# Codigo del Cliente.
+
+# Codigo del Servidor.
 ```java
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -182,3 +182,5 @@ public class servidor extends javax.swing.JFrame {
     // End of variables declaration                   
 }
 ```
+
+# Codigo del Cliente.
