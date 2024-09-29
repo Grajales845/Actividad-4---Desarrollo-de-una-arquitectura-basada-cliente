@@ -182,5 +182,10 @@ public class servidor extends javax.swing.JFrame {
     // End of variables declaration                   
 }
 ```
+- El servidor espera una conexión en el puerto 12345, y una vez conectado, puede recibir y enviar mensajes al cliente.
+- El usuario puede interactuar con el servidor a través de una interfaz gráfica.
+- El servidor escucha las conexiones de los clientes a través de un ServerSocket.
+- Una vez establecida la conexión, el servidor usa DataInputStream y DataOutputStream para manejar la comunicación.
+- El servidor muestra los mensajes recibidos en un área de texto (msg_area) y permite al usuario enviar mensajes usando un campo de texto (msg_text) y un botón de enviar (msg_send).
 
 # Codigo del Cliente.
