@@ -354,4 +354,9 @@ public class cliente extends javax.swing.JFrame {
     // End of variables declaration                   
 }
 ```
--
+- El cliente se conecta al servidor usando un socket (new Socket("127.0.0.1", 12345)), lo que establece una conexión con el servidor que escucha en esa dirección IP y puerto.
+- El cliente puede escribir mensajes en un campo de texto y enviarlos al servidor a través del flujo de salida (DataOutputStream).
+- El cliente recibe mensajes del servidor a través del flujo de entrada (DataInputStream) y los muestra en un área de texto en la interfaz gráfica.
+
+# Interfaz grafica y ejecucion del codigo.
+
