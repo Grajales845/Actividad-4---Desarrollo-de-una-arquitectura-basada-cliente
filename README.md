@@ -360,3 +360,7 @@ public class cliente extends javax.swing.JFrame {
 
 # Interfaz grafica y ejecucion del codigo.
 
+El cliente puede enviar y recibir mensajes al igual que el servidor:
+
+![image](https://github.com/user-attachments/assets/b5b2fb8d-a8c9-49a1-b8a3-93b8fb645abb)
+
