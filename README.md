@@ -364,3 +364,7 @@ El cliente puede enviar y recibir mensajes al igual que el servidor:
 
 ![image](https://github.com/user-attachments/assets/b5b2fb8d-a8c9-49a1-b8a3-93b8fb645abb)
 
+# Conclusion.
+
+La arquitectura cliente-servidor con comunicación mediante sockets ofrece una separación clara de responsabilidades entre el cliente y el servidor, lo que facilita el mantenimiento y la evolución del sistema. El servidor gestiona la lógica de negocio, mientras que el cliente se encarga de la interfaz de usuario y la interacción. Esta separación permite realizar cambios en uno sin afectar al otro, y ambos pueden ser probados y depurados de forma independiente, mejorando la modularidad y facilitando la corrección de errores.
+Otra ventaja significativa es la escalabilidad. El servidor puede gestionar múltiples clientes simultáneamente, lo que permite aumentar la cantidad de usuarios sin afectar el rendimiento. Además, es posible replicar servidores y distribuir la carga entre ellos, lo que asegura que la arquitectura puede crecer horizontalmente si es necesario. La comunicación en tiempo real mediante sockets permite una respuesta inmediata, ideal para aplicaciones como chats o juegos en línea.
