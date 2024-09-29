@@ -4,7 +4,7 @@ Este es un ejercicio de un chat usando el modelo cliente-servidor, mediante una 
 
 ![image](https://github.com/user-attachments/assets/07dd303f-2ecf-4816-93fe-e678068da631)
 
-#Interfaz
+# Interfaz
 Inicialmente en el paquete "chat" se crea el JFrame Form para el cliente y el servidor para realizar la interfaz:
 
 ![image](https://github.com/user-attachments/assets/7919d47d-14ef-40de-b23b-7d4174eb4746)
